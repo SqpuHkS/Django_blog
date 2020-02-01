@@ -19,7 +19,8 @@ from site_blog.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('post/<slug>/', post_detail, name="post_detail_url"),
+    path('post/<str:slug>/', post_detail, name="post_detail_url"),
+    path('tag/<str:slug>', tag_detail, name="tag_detail_url"),
     path('tags/', tags_list, name="tags_list_url"),
     path('', main_page, name='posts_list_url'),
 ]

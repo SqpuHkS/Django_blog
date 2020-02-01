@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f29ed1c-761e-4542-80db-7fc935e9cf4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd15a762-bfb2-44b4-866a-5ec367e488af.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fd15a762-bfb2-44b4-866a-5ec367e488af.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/site_blog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +108,17 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@166dc871" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@66b0e9a" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4098e98a" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7b030a29" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -125,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580293460355</updated>
       <workItem from="1580293475382" duration="5992000" />
-      <workItem from="1580466881985" duration="8762000" />
+      <workItem from="1580466881985" duration="12558000" />
     </task>
     <servers />
   </component>
@@ -133,21 +146,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="903" height="176" key="GridCell.Tab.0.bottom" timestamp="1580466904924">
+    <state width="903" height="176" key="GridCell.Tab.0.bottom" timestamp="1580487406626">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state width="903" height="176" key="GridCell.Tab.0.bottom/0.28.1366.740@0.28.1366.740" timestamp="1580466904924" />
-    <state width="903" height="176" key="GridCell.Tab.0.center" timestamp="1580466904923">
+    <state width="903" height="176" key="GridCell.Tab.0.bottom/0.28.1366.740@0.28.1366.740" timestamp="1580487406626" />
+    <state width="903" height="176" key="GridCell.Tab.0.center" timestamp="1580487406625">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state width="903" height="176" key="GridCell.Tab.0.center/0.28.1366.740@0.28.1366.740" timestamp="1580466904923" />
-    <state width="903" height="176" key="GridCell.Tab.0.left" timestamp="1580466904922">
+    <state width="903" height="176" key="GridCell.Tab.0.center/0.28.1366.740@0.28.1366.740" timestamp="1580487406625" />
+    <state width="903" height="176" key="GridCell.Tab.0.left" timestamp="1580487406625">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state width="903" height="176" key="GridCell.Tab.0.left/0.28.1366.740@0.28.1366.740" timestamp="1580466904922" />
-    <state width="903" height="176" key="GridCell.Tab.0.right" timestamp="1580466904923">
+    <state width="903" height="176" key="GridCell.Tab.0.left/0.28.1366.740@0.28.1366.740" timestamp="1580487406625" />
+    <state width="903" height="176" key="GridCell.Tab.0.right" timestamp="1580487406625">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state width="903" height="176" key="GridCell.Tab.0.right/0.28.1366.740@0.28.1366.740" timestamp="1580466904923" />
+    <state width="903" height="176" key="GridCell.Tab.0.right/0.28.1366.740@0.28.1366.740" timestamp="1580487406625" />
   </component>
 </project>
