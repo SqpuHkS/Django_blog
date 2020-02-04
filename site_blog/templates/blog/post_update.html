@@ -1,0 +1,29 @@
+{% extends 'base_blog.html' %}
+
+{% block title %}
+    Post Update
+{% endblock %}
+
+{% block content %}
+
+    <form class="" action="{% url 'post_update_url' slug=post.slug%}" method="post">
+        {% csrf_token %}
+
+        {% for i in form %}
+            <div class="form-group">
+                {% if i.errors %}
+                    <div class="alert alert-danger">
+                        {{ i.errors }}
+                    </div>
+                {% endif %}
+                {{ i.label }}
+                {{ i }}
+            </div>
+
+        {% endfor %}
+        <button type="submit" name="button">
+            Update post
+        </button>
+    </form>
+
+{% endblock %}

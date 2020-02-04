@@ -1,18 +1,44 @@
 from django.shortcuts import render
+from django.shortcuts import get_object_or_404
+from django.shortcuts import redirect
+from django.views.generic import View
 from .models import *
+from .utils import *
+from .forms import TagForm, PostForm
+
 
 def main_page(request):
     data = Post.objects.all()
     return render(request, 'blog/index.html', context={'posts': data})
 
-def post_detail(request, slug):
-    data = Post.objects.get(slug__iexact=slug)
-    return render(request, 'blog/post_detail.html', context={'post': data})
-
 def tags_list(request):
     data = Tag.objects.all()
     return render(request, 'blog/tags.html', context={'tags':data})
 
-def tag_detail(request, slug):
-    data = Tag.objects.get(slug__iexact=slug)
-    return render(request, 'blog/tag_detail.html', context={'tag':data})
+
+
+class TagUpdate(ObjectUpdateMixin, View):
+    model_form = TagForm
+    model = Tag
+    template = 'blog/tag_update.html'
+
+class PostUpdate(ObjectUpdateMixin, View):
+    model_form = PostForm
+    model = Post
+    template = 'blog/post_update.html'
+
+class TagDetail(ObjectDetailMixin, View):
+    model = Tag
+    template = 'blog/tag_detail.html'
+
+class PostDetail(ObjectDetailMixin, View):
+    model = Post
+    template = 'blog/post_detail.html'
+
+class TagCreate(ObjectCreateMixin, View):
+    model_form = TagForm
+    template = 'blog/tag_create.html'
+
+class PostCreate(ObjectCreateMixin, View):
+    model_form = PostForm
+    template = 'blog/post_create_form.html'
